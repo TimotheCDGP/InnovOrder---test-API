@@ -22,7 +22,7 @@ $ npm run start
 Once the server is running, you can start making some API requests :
 
 
-# To create a new user in the database
+## To create a new user in the database
 
 POST
 ```bash
@@ -31,7 +31,7 @@ http://localhost:3000/users
 *This request needs a body containing an object with {"login":"","password":""}*
 
 
-# To edit an user in the database
+## To edit an user in the database
 
 PUT
 ```bash
@@ -39,7 +39,7 @@ http://localhost:3000/users/ + actual user id in database
 ```
 *This request needs a body containing an object with the new credentials {"login":"","password":""}*
 
-# To authenticate as an user
+## To authenticate as an user
 
 POST
 ```bash
@@ -48,7 +48,7 @@ http://localhost:3000/users/login
 *This request needs a body containing an object with {"login":"","password":""}*
 *This will return a JWT (JSON Web Token), they expire after 1 hour*
 
-# To search a product with OpenFoodFact API by it's barcode
+## To search a product with OpenFoodFact API by it's barcode
 
 POST
 ```bash
