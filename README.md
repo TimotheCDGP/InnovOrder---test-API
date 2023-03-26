@@ -5,7 +5,7 @@ It can also search products infos by their codebar using OpenFoodFacts API, on a
 
 ## Installation
 
-**Before you attempt to install the project, it is required to have node.js and git installed**
+**Before you attempt to setup the project, it is required to install node.js and git**
 
 
 ```bash
