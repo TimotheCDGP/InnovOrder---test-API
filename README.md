@@ -56,7 +56,7 @@ POST
 ```bash
 http://localhost:3000/users/login
 ```
-*This request needs a body containing an object with {"login":"","password":""}*
+*This request needs a body containing an object with {"login":"","password":""}\n*
 *This will return a JWT (JSON Web Token), they expire after 1 hour*
 
 ## To search a product with OpenFoodFact API by it's barcode
