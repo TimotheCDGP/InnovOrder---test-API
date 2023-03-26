@@ -36,7 +36,7 @@ It is recommended use Postman or Insomnia to tets the API.
 ## To create a new user in the database
 
 POST
-```bash
+```
 http://localhost:3000/users
 ```
 *This request needs a body containing an object with {"login":"","password":""}*
@@ -45,7 +45,7 @@ http://localhost:3000/users
 ## To edit an user in the database
 
 PUT
-```bash
+```
 http://localhost:3000/users/ + actual user id in database
 ```
 *This request needs a body containing an object with the new credentials {"login":"","password":""}*
@@ -53,7 +53,7 @@ http://localhost:3000/users/ + actual user id in database
 ## To authenticate as an user
 
 POST
-```bash
+```
 http://localhost:3000/users/login
 ```
 *This request needs a body containing an object with {"login":"","password":""}*
@@ -62,7 +62,7 @@ http://localhost:3000/users/login
 ## To search a product with OpenFoodFact API by it's barcode
 
 POST
-```bash
+```
 http://localhost:3000/users/product/ + codebar
 ```
 *This request requires a valid JWT token*
