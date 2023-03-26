@@ -1,7 +1,7 @@
 ## Description
 
 This is a Nest.js API project, that can register, authentificate and edit users on a MongoDB database.
-It can also search products infos by their codebar using OpenFoodFacts API, on an authentified route. 
+It can also search products infos by their barcode using OpenFoodFacts API, on an authentified route. 
 
 ## Installation
 
@@ -63,7 +63,7 @@ http://localhost:3000/users/login
 
 POST
 ```
-http://localhost:3000/users/product/ + codebar
+http://localhost:3000/users/product/ + barcode
 ```
 *This request requires a valid JWT token*
 
