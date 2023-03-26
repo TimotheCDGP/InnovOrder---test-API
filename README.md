@@ -5,6 +5,15 @@ It can also search products infos by their codebar using OpenFoodFacts API, on a
 
 ## Installation
 
+**Before you attempt to install the project, it is required to have node.js and git installed**
+
+
+```bash
+$ git clone https://github.com/TimotheCDGP/InnovOrder---test-API.git
+```
+```bash
+$ cd InnovOrder---test-API
+```
 ```bash
 $ npm install
 ```
@@ -16,7 +25,6 @@ $ npm install
 ```bash
 $ npm run start
 ```
-
 
 
 ## Use the app
