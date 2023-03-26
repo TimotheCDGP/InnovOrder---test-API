@@ -17,9 +17,12 @@ $ npm install
 $ npm run start
 ```
 
+
+
 ## Use the app
 
-Once the server is running, you can start making some API requests :
+Once the server is running, you can start making some API requests.
+It is recommended use Postman or Insomnia to tets the API.
 
 
 ## To create a new user in the database
