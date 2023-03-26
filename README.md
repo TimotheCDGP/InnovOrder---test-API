@@ -65,7 +65,7 @@ POST
 ```
 http://localhost:3000/users/product/ + barcode
 ```
-*This request requires a valid JWT token*
+*This request requires a valid JWT token inside authorization header*
 
 ## Support
 
